@@ -1,7 +1,13 @@
-# music-player
-React Music Player
+# React Music Player
 
-# Pre Install
+### Run it as:
+
+```
+npm start or yarn start
+```
+
+### Pre Install
+
 ```
 npm install node-sass
 npm i --save @fortawesome/fontawesome-svg-core
