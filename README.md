@@ -1,5 +1,11 @@
 # React Music Player
 
+In the project directory, you can run:
+
+```
+npm install
+```
+
 ### Run it as:
 
 ```
