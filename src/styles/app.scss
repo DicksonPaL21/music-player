@@ -4,10 +4,31 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #444;
 }
 
-@import '/song';
-@import './player';
-@import './library';
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+}
+
+.App {
+  transition: all 0.5s ease;
+}
+
+.library-active {
+  margin-left: 20rem;
+}
+
+@import "/song";
+@import "./player";
+@import "./library";
+@import "./Nav";

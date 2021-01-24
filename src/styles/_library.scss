@@ -6,21 +6,30 @@
   height: 100%;
   background-color: #fff;
   box-shadow: 2px 2px 50px #444;
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: all 0.5s ease;
+  opacity: 0;
+
+  & > h2 {
+    padding: 1.35rem 1rem !important;
+  }
 
   h2 {
-    padding: 2rem;
+    padding: 0.35rem 0rem;
   }
 }
 
 .library-song {
   display: flex;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   cursor: pointer;
+  transition: background 0.5s ease;
 
   img {
-    width: 30%;
+    width: 25%;
   }
 
   &:hover {
@@ -36,9 +45,18 @@
   }
 }
 
+.selected {
+  background: rgb(165, 181, 228);
+}
+
+.active-library {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(155, 155, 155, .5) transparent;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
 }
 
 *::-webkit-scrollbar {
@@ -50,7 +68,13 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background: rgba(155, 155, 155, .5);
+  background: rgba(155, 155, 155, 0.5);
   border-radius: 20px;
   border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .library {
+    width: 100%;
+  }
 }
