@@ -9,7 +9,7 @@ npm install
 ### Run it as:
 
 ```
-npm start or yarn start
+npm start
 ```
 
 ### Pre Install
