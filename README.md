@@ -12,9 +12,9 @@ npm install
 npm start
 ```
 
+<!--
 ### Pre Install
 
-<!--
 ```
 npm install node-sass
 npm i --save @fortawesome/fontawesome-svg-core
