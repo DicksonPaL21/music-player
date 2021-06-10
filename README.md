@@ -14,10 +14,12 @@ npm start
 
 ### Pre Install
 
+<!--
 ```
 npm install node-sass
 npm i --save @fortawesome/fontawesome-svg-core
-npm  install --save @fortawesome/free-solid-svg-icons
-npm  install --save @fortawesome/react-fontawesome
-npm install uuid
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/react-fontawesome
+npm i uuid
 ```
+-->
